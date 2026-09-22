@@ -54,7 +54,7 @@ target = "solubility_pct"
 features = [
     "protein_source",
     "protein_category",
-    "pH",
+    "ph",
     "temperature_c",
     "protein_concentration_pct",
     "processing_method",
@@ -77,7 +77,7 @@ categorical_features = [
 ]
 
 numerical_features = [
-    "pH",
+    "ph",
     "temperature_c",
     "protein_concentration_pct",
 ]

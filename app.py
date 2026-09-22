@@ -347,7 +347,7 @@ elif page == "Explore Data":
 
     fig1 = px.scatter(
         filtered_df,
-        x="pH",
+        x="ph",
         y="solubility_pct",
         color="protein_source",
         hover_data=[
@@ -374,7 +374,7 @@ elif page == "Explore Data":
         color="protein_source",
         hover_data=[
             "processing_method",
-            "pH",
+            "ph",
             "protein_concentration_pct",
         ],
         title="Gel Strength and Temperature",
@@ -506,7 +506,7 @@ elif page == "Prediction":
     input_data = pd.DataFrame({
         "protein_source": [protein_source],
         "protein_category": [protein_category],
-        "pH": [pH],
+        "ph": [pH],
         "temperature_c": [temperature_c],
         "protein_concentration_pct": [
             protein_concentration_pct

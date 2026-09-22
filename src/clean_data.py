@@ -65,10 +65,10 @@ rows_after_duplicates = len(df)
 # ---------------------------------------------------------
 
 # pH should normally be between 0 and 14
-if "pH" in df.columns:
+if "ph" in df.columns:
     df.loc[
-        (df["pH"] < 0) | (df["pH"] > 14),
-        "pH"
+        (df["ph"] < 0) | (df["ph"] > 14),
+        "ph"
     ] = pd.NA
 
 

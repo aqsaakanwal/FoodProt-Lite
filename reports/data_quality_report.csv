@@ -1,0 +1,9 @@
+metric,value
+Rows before cleaning,253
+Duplicate rows detected,3
+Rows after duplicate removal,250
+Missing values before cleaning,13
+Missing values after cleaning,0
+Duplicate rows after cleaning,0
+Final rows,250
+Final columns,14
