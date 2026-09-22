@@ -1,0 +1,1 @@
+# FoodProt-Lite Streamlit application
